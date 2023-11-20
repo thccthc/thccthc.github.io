@@ -1,0 +1,351 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: montserrat;
+    overflow: auto;
+}
+body.rediscover-singapore {
+    background: url('singapore.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+body.package-tours-page {
+    background: url('packageTours.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+header {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+}
+main {
+    margin-top: 20px;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+article {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+}
+article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.attractions-bar {
+    background-color: orange;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    border-radius: 5px;
+}
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+nav {
+    background: rgba(0, 0, 0, 0.5);
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a:hover{
+    background: purple;
+    transition: 0.5s;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    color: white;
+    font-size: 17px;
+    padding: 7px 5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0px 0px 20px 20px;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: purple;
+    border-radius: 20px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+article:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+.active a {
+    background: #964B00;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #d3d3d3;
+    color: #000000;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container h4{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+/*label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}*/
+button{
+    background: #000000;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,1);
+}
+.contact-left h3{
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+.price {
+    margin-top: 10px;
+    color: #000;
+}
+body.package-tours-page main {
+    text-align: center;
+}
+
+body.package-tours-page main p {
+    margin: 0 auto;
+    max-width: 600px;
+    color: white;
+}
+.bar {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    border-radius: 5px;
+    margin-top: 20px; 
+}
+body.tour .container img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+body.package-tours-page main section article a:hover {
+    background-color: pink;
+    transition: background-color 0.5s;
+}
+@media screen and (max-width: 768px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav {
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+        background-color: black;
+        border-radius: 5px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .video-container {
+        display: none;
+    }
+    body {
+        background: url('Ocean.png') no-repeat center center fixed;
+        background-size: cover;
+    }
+    header h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    article {
+        padding: 10px;
+        margin: 10px 0;
+        flex: none;
+        width: 100%;
+    }
+    h2 {
+        font-size: 1.2em;
+        margin: 5px 0;
+    }
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-box {
+        flex-direction: column;
+    }
+    .input-row .input-group {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .input-row {
+        flex-direction: column; /* Stack items vertically */
+        margin: 10px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        background: black;
+        z-index: 3;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}

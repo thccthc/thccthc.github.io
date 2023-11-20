@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="websiteStyleSheets.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <!--        <style>
+                    *{
+                        margin: 0;
+                        padding: 0;
+                    }
+                    body{
+                        font-size: 20px;
+                    }
+                    .container{
+                        width: 80%;
+                        margin: 50px auto;
+                    }
+                </style>-->
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">World Xplore</label>
+            <ul class="menu">
+                <li><a href="website.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="packageTours.html" class="dropbtn">Package Tours</a>
+                    <div class="dropdown-content">
+                        <a href="tour1.html">Tour 1</a>
+                        <a href="tour2.html">Tour 2</a>
+                        <a href="tour3.html">Tour 3</a>
+                    </div>
+                </li>
+                <li><a href="rediscoverSingapore.html">Rediscover Singapore</a></li>
+                <li><a href="cruises.html">Cruises</a></li>
+                <li class="active"><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1>Connect With Us</h1>
+            <h4>Feel free to get in touch with us!</h4>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send your request</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Enter your full name">
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" placeholder="Enter your phone number">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="Enter your email address">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="Enter your subject">
+                            </div>
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Enter your message"></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Reach Us</h3>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>info@worldXplore.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+65 9264 7298</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>436 Orchard Rd,<br>
+                                #11-00 Wisma Atria, Singapore 238877
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Opening Hours</td>
+                            <td>Monday - Saturday :<br>
+                                11am – 7pm
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2023 Tourism Website. All rights reserved.</p>
+        </footer>
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </body>
+</html>
